@@ -19,7 +19,7 @@ class User < ActiveRecord::Base
 end 
 ```
 
-**This meant that my User would have just one instance of a list or a fridge.**
+This meant that my User would have just one instance of a list or a fridge.
 
 Likewise, the Fridge and the User model needed a macro to relate to the User, the "belongs_to:".
 
@@ -42,7 +42,7 @@ In this case, we have a foreign key in Fridge and List.
 
 Now here is where things got tricky. Both a Fridge and a List have items, but like your grocery list and your fridge at home these items are not always the same. I wanted a User to be able to update both objects with different items, but items are just items and I had to associate Items to both a Fridge and a List from the same Item model. This is a Polymorphic association. 
 
-**A polymorphic relationship is such that a single model can belong to multiple models. **
+**A polymorphic relationship is such that a single model can belong to multiple models.**
 
 In this project, items belong to both a Fridge and a List. 
 
@@ -90,7 +90,7 @@ I have fridge_items and list_items through a fridge or a list respectively, comi
 
 Now that the associations are built out, lets briefly take a look at the SQLite3 migrations to further undertand how the tables are related and how to set up the migrations properly. 
 
-**The only table that deviates from standard is the polymorphic table. **
+**The only table that deviates from standard is the polymorphic table.**
 
 Remember that itemizable_id and itemizable_type. We have to create them in our Item table. 
 
