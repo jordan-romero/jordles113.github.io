@@ -127,4 +127,6 @@ To understand references, I looked to the ActiveRecord source code (linked here:
 For more resources on Associations: 
 
 [https://dev.to/neshaz/everything-there-is-to-know-about-associations-in-rails-52ii](http://)
+
+
 [https://launchschool.com/blog/understanding-polymorphic-associations-in-rails](http://)
