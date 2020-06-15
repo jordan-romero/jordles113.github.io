@@ -16,6 +16,7 @@ My first two associations were easy. One-to-One. In my project, a user has a Fri
 class User < ActiveRecord::Base 
     has_one :fridge
     has_one :list
+end 
 ```
 
 ****This meant that my User would have just one instance of a list or a fridge.
@@ -25,6 +26,7 @@ Likewise, the Fridge and the User model needed a macro to relate to the User, th
 ```
 class Fridge < ActiveRecord::Base
     belongs_to :user
+end 
 ```
 ```
 class List < ActiveRecord::Base
