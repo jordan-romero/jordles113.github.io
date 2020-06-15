@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Associations: Getting Polymorphic With it. "
-date:       2020-06-15 21:51:23 +0000
+date:       2020-06-15 17:51:24 -0400
 permalink:  associations_getting_polymorphic_with_it
 ---
 
@@ -121,7 +121,7 @@ class CreateItems < ActiveRecord::Migration[6.0]
 end
 ```
 
-To understand references, I looked to the ActiveRecord source code (linked here:[https://github.com/rails/rails/blob/master/activerecord/lib/active_record/connection_adapters/abstract/schema_definitions.rb#L422](http://) specificly: Line 365). 
+To understand references, I looked to the ActiveRecord source code (linked here:[https://github.com/rails/rails/blob/master/activerecord/lib/active_record/connection_adapters/abstract/schema_definitions.rb#L422](http://) Line 365). 
 
 
 For more resources on Associations: 
