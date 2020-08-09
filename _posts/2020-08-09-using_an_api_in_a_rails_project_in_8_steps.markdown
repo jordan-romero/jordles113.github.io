@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using an API in a Rails Project in 8 Steps"
-date:       2020-08-09 19:50:53 +0000
+date:       2020-08-09 15:50:54 -0400
 permalink:  using_an_api_in_a_rails_project_in_8_steps
 ---
 
