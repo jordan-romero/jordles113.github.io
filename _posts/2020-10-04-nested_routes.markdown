@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Nested Routes"
-date:       2020-10-05 02:18:11 +0000
+title:      "Let's Make Fetch Happen!"
+date:       2020-10-04 22:18:12 -0400
 permalink:  nested_routes
 ---
 
